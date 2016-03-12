@@ -10,6 +10,9 @@
             },{
                 "id" : "Pathfinding",
                 "minVersion" : "0.1.0"
+            },{
+                "id" : "Dialogs",
+                "minVersion" : "0.1.0"
             }],
     "serverSideOnly" : false
 }

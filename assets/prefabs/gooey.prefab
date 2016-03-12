@@ -86,7 +86,36 @@
     },
     "Trigger" : {
         "detectGroups" : ["engine:debris", "engine:sensor"]
+    },
+    "Dialog": {
+        "firstPage": "mainPage",
+        "pages": [
+            {
+                "id": "mainPage",
+                "title": "Hello, I am Gooey",
+                "paragraphText": [
+                    "Hi, I am Gooey",
+                    "I can use my magic to make the world around us a bit more interesting.",
+                    "Just tell me when we are in an area where you want to start a quest and I will see if I can come up with something",
+                    "Be however warned: My magic may tear our surroundings appart or add new stuff to it.",
+                    "So you may want to lead me to another place first before we start a quest."
+                ],
+                "responses": [
+                    {
+                        "text": "What quests could we do? (not implemented)"
+                    },
+                    {
+                        "text": "Please follow me ... (not implemented)"
+                    },
+                    {
+                        "text": "Please stay here",
+                        "action": {
+                            "type": "CloseDialogAction"
+                        }
+                    }
+                ]
+            }
+        ]
     }
-
 }
 
