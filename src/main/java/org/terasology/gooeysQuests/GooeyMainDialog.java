@@ -24,10 +24,10 @@ import org.terasology.logic.players.LocalPlayer;
 import org.terasology.behaviors.components.FollowComponent;
 import org.terasology.registry.In;
 import org.terasology.rendering.nui.BaseInteractionScreen;
-import org.terasology.rendering.nui.UIWidget;
-import org.terasology.rendering.nui.WidgetUtil;
-import org.terasology.rendering.nui.widgets.UIButton;
-import org.terasology.rendering.nui.widgets.UIText;
+import org.terasology.nui.UIWidget;
+import org.terasology.nui.WidgetUtil;
+import org.terasology.nui.widgets.UIButton;
+import org.terasology.nui.widgets.UIText;
 
 /**
  * Dialog that gets shown when you interact (per default hotkey E) with gooey.
